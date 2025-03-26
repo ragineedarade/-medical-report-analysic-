@@ -19,8 +19,7 @@ git clone https://github.com/your-username/medical-report-analysis.git
 cd medical-report-analysis
 2️⃣ Install Required Packages
 bash
-Copy
-Edit
+ 
 pip install -r requirements.txt
 3️⃣ Set Up Google Gemini API
 Get your API key from Google AI Studio.
@@ -28,18 +27,15 @@ Get your API key from Google AI Studio.
 Add your API key to an .env file:
 
 plaintext
-Copy
-Edit
+ 
 GEMINI_API_KEY=your_api_key_here
 4️⃣ Run the Streamlit App
 bash
-Copy
-Edit
+ 
 streamlit run app.py
 📁 File Structure
 bash
-Copy
-Edit
+ 
 medical-report-analysis/
 │── app.py              # Main Streamlit app
 │── requirements.txt    # Dependencies
@@ -87,9 +83,7 @@ MIT License
 Would you like to add database storage or voice-based AI analysis? 🚀😊
 
 yaml
-Copy
-Edit
-
+ 
 ---
 
 ### ✨ **This README Covers:**  
